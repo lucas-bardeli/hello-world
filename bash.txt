@@ -1,0 +1,6 @@
+echo "#!/bin/bash"
+
+Desconsidere o echo "" nesta primeira linha, pois para interpretar 
+como um comando é preciso ter o "shebang".
+
+echo "Hello, World!"
