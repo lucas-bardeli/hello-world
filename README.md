@@ -1,6 +1,6 @@
 
 # Hello, World!
 
-### "Hello, World!" in every programming language I can find.
+### "Hello, World!" in some programming languages.
 
-### "Olá, Mundo!" em todas as linguagens de programação que eu encontrar.
+### "Olá, Mundo!" em algumas linguagens de programação.

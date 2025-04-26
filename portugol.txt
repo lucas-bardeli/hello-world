@@ -1,0 +1,19 @@
+algoritmo "Hello, World! in Portugol"
+
+var
+
+inicio
+
+    escreva("Olá, Mundo!")
+
+fimalgoritmo
+
+Maneira alternativa:
+
+programa 
+{ 
+	funcao inicio() 
+	{
+		escreva("Olá, Mundo!")
+	} 
+}
