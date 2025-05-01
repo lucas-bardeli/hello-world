@@ -169,7 +169,7 @@ void main() {
 ```
 [Back to top](#hello-world)
 
-## Dart
+## Delphi
 ```bash
 program HelloWorld;
 
@@ -215,7 +215,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, World!")	
+    fmt.Println("Hello, World!")	
 }
 ```
 [Back to top](#hello-world)
@@ -307,7 +307,7 @@ package main
 import "core:fmt"
 
 main :: proc() {
-	fmt.println("Hello, World!")
+    fmt.println("Hello, World!")
 }
 ```
 [Back to top](#hello-world)
@@ -344,8 +344,8 @@ print "Hello, World!\n";
 ## Portugol Studio
 ```bash
 programa { 
-	funcao inicio() {
-		escreva("Olá, Mundo!")
+    funcao inicio() {
+        escreva("Olá, Mundo!")
 	} 
 }
 ```
