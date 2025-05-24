@@ -19,6 +19,7 @@
 - [Dart](#dart)
 - [Delphi](#delphi)
 - [Elixir](#elixir)
+- [Erlang](#erlang)
 - [F#](#f)
 - [Fortran](#fortran)
 - [Go](#go)
@@ -191,6 +192,16 @@ IO.puts("Hello, World!")
 ```
 [Back to top](#hello-world)
 
+## Erlang
+```bash
+-module(HelloWorld).
+-export([start/0]).
+
+start() -> 
+    io:format("Hello, World!~n").
+```
+[Back to top](#hello-world)
+
 ## F#
 ```bash
 [<EntryPoint>]
@@ -343,12 +354,12 @@ print "Hello, World!\n";
 
 ## Portugol Studio
 ```bash
-programa { 
+programa {
     funcao inicio() {
         escreva("Olá, Mundo!")
-	} 
+    }
 }
-```
+``` 
 [Back to top](#hello-world)
 
 ## Powershell
