@@ -1,7 +1,7 @@
 
 # Hello, World!
-### "Hello, World!" in some programming languages.
-### "Olá, Mundo!" em algumas linguagens de programação.
+### "Hello, World!" in some programming languages / scripts / file formats.
+### "Olá, Mundo!" em algumas linguagens de programação / scripts / formatos de arquivos.
 
 <details><summary>Links</summary>
 
@@ -27,9 +27,11 @@
 - [HTML](#html)
 - [Java](#java)
 - [JavaScript](#javascript)
+- [JSON](#json)
 - [Julia](#julia)
 - [Kotlin](#kotlin)
 - [Lua](#lua)
+- [Markdown](#markdown)
 - [MATLAB](#matlab)
 - [Objective-C](#objective-c)
 - [Odin](#odin)
@@ -37,7 +39,7 @@
 - [Perl](#perl)
 - [PHP](#php)
 - [Portugol Studio](#portugol-studio)
-- [Powershell](#powershell)
+- [PowerShell](#powershell)
 - [Python](#python)
 - [R](#r)
 - [Ruby](#ruby)
@@ -48,6 +50,7 @@
 - [TypeScript](#typescript)
 - [Visual Basic](#visual-basic)
 - [Visualg](#visualg)
+- [XML](#xml)
 - [Zig](#zig)
 </details>
 
@@ -65,8 +68,8 @@ end hello;
 ## Arduino
 ```bash
 void setup() {
-  Serial.begin(9600);
-  Serial.println("Hello, World!");
+    Serial.begin(9600);
+    Serial.println("Hello, World!");
 }
 void loop() {
 }
@@ -100,6 +103,7 @@ _start:
 
 echo "Hello, World!"
 ```
+[Go to file](files/bash.sh) <br>
 [Back to top](#hello-world)
 
 ## C
@@ -111,12 +115,14 @@ int main() {
     return 0;
 }
 ```
+[Go to file](files/c.c) <br>
 [Back to top](#hello-world)
 
 ## C#
 ```bash
 Console.WriteLine("Hello, World!");
 ```
+[Go to file](files/csharp.cs) <br>
 [Back to top](#hello-world)
 
 ## C++
@@ -125,11 +131,12 @@ Console.WriteLine("Hello, World!");
 
 using namespace std;
 
-int main() { 
+int main() {
     cout << "Hello, World!" << endl;
     return 0;
 }
 ```
+[Go to file](files/cpp.cpp) <br>
 [Back to top](#hello-world)
 
 ## Clipper
@@ -160,6 +167,7 @@ body::before {
     content: "Hello, World!";
 }
 ```
+[Go to file](files/css.css) <br>
 [Back to top](#hello-world)
 
 ## Dart
@@ -168,6 +176,7 @@ void main() {
     print("Hello, World!");
 }
 ```
+[Go to file](files/dart.dart) <br>
 [Back to top](#hello-world)
 
 ## Delphi
@@ -226,9 +235,10 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello, World!")	
+    fmt.Println("Hello, World!")
 }
 ```
+[Go to file](files/go.go) <br>
 [Back to top](#hello-world)
 
 ## Haskell
@@ -244,16 +254,17 @@ main putStrLn "Hello, World!"
 ```bash
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hello, World!</title>    
-    </head>
-    <body>    
-        <h1>Hello, World!</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World!</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
 </html>
 ```
+[Go to file](files/html.html) <br>
 [Back to top](#hello-world)
 
 ## Java
@@ -264,12 +275,23 @@ public class HelloWorld {
     }
 }
 ```
+[Go to file](files/java.java) <br>
 [Back to top](#hello-world)
 
 ## JavaScript
 ```bash
 console.log("Hello, World!")
 ```
+[Go to file](files/javascript.js) <br>
+[Back to top](#hello-world)
+
+## JSON
+```bash
+{
+    "message": "Hello, World!"
+}
+```
+[Go to file](files/json.json) <br>
 [Back to top](#hello-world)
 
 ## Julia
@@ -284,12 +306,21 @@ fun main() {
     println("Hello, World!")  
 }
 ```
+[Go to file](files/kotlin.kt) <br>
 [Back to top](#hello-world)
 
 ## Lua
 ```bash
 print("Hello, World!")
 ```
+[Go to file](files/lua.lua) <br>
+[Back to top](#hello-world)
+
+## Markdown
+```bash
+### Hello, World!
+```
+[Go to file](files/markdown.md) <br>
 [Back to top](#hello-world)
 
 ## MATLAB
@@ -326,11 +357,11 @@ main :: proc() {
 ## Pascal
 ```bash
 program HelloWorld;
-
 begin
     writeln('Hello, World!');
 end.
 ```
+[Go to file](files/pascal.pas) <br>
 [Back to top](#hello-world)
 
 ## Perl
@@ -350,6 +381,7 @@ print "Hello, World!\n";
     echo "Hello, World!";
 ?>
 ```
+[Go to file](files/php.php) <br>
 [Back to top](#hello-world)
 
 ## Portugol Studio
@@ -359,25 +391,29 @@ programa {
         escreva("Olá, Mundo!")
     }
 }
-``` 
+```
+[Go to file](files/portugol-studio.por) <br>
 [Back to top](#hello-world)
 
-## Powershell
+## PowerShell
 ```bash
 Write-Output "Hello, World!"
 ```
+[Go to file](files/powershell.ps1) <br>
 [Back to top](#hello-world)
 
 ## Python
 ```bash
 print("Hello, World!")
 ```
+[Go to file](files/python.py) <br>
 [Back to top](#hello-world)
 
 ## R
 ```bash
-print("Hello, World!")
+"Hello, World!"
 ```
+[Go to file](files/r.r) <br>
 [Back to top](#hello-world)
 
 ## Ruby
@@ -406,8 +442,9 @@ object HelloWorld {
 
 ## SQL
 ```bash
-SELECT 'Hello, World!' AS Message;
+SELECT "Hello, World!" AS message;
 ```
+[Go to file](files/sql.sql) <br>
 [Back to top](#hello-world)
 
 ## Swift
@@ -420,6 +457,7 @@ print("Hello, World!")
 ```bash
 console.log("Hello, World!")
 ```
+[Go to file](files/typescript.ts) <br>
 [Back to top](#hello-world)
 
 ## Visual Basic
@@ -434,12 +472,23 @@ End Module
 
 ## Visualg
 ```bash
-algoritmo "Olá, Mundo! em Visualg"
+algoritmo "Olá, Mundo!"
 var
 inicio
     escreva("Olá, Mundo!")
 fimalgoritmo
 ```
+[Go to file](files/visualg.alg) <br>
+[Back to top](#hello-world)
+
+## XML
+```bash
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+    <hello>Hello, World!</hello>
+</message>
+```
+[Go to file](files/xml.xml) <br>
 [Back to top](#hello-world)
 
 ## Zig
@@ -447,7 +496,8 @@ fimalgoritmo
 const std = @import("std");
 
 pub fn main() !void {
-    std.debug.print("Hello, World!\n", .{});
+    std.debug.print("Hello, World!", .{});
 }
 ```
+[Go to file](files/zig.zig) <br>
 [Back to top](#hello-world)
