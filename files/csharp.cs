@@ -1,2 +1,7 @@
+using System;
 
-Console.WriteLine("Hello, World!");
+public class HelloWorld {
+    static void Main(string[] args) {
+        Console.WriteLine("Hello, World!");
+    }
+}
