@@ -9,6 +9,7 @@
 - [Arduino](#arduino)
 - [Assembly](#assembly)
 - [Bash](#bash)
+- [Batch (DOS)](#batch-dos)
 - [C](#c)
 - [C#](#c-1)
 - [C++](#c-2)
@@ -54,7 +55,9 @@
 - [VBScript](#vbscript)
 - [Visual Basic](#visual-basic)
 - [Visualg](#visualg)
+- [Vue.js](#vuejs)
 - [XML](#xml)
+- [YAML](#yaml)
 - [YARA](#yara)
 - [Zig](#zig)
 </details>
@@ -63,10 +66,10 @@
 ```
 with Ada.Text_IO;
 
-procedure hello is
+procedure HelloWorld is
 begin
    Ada.Text_IO.Put_Line("Hello, World!");
-end hello;
+end HelloWorld;
 ```
 [Back to top](#hello-world)
 
@@ -109,6 +112,14 @@ _start:
 echo "Hello, World!"
 ```
 [Go to file](files/bash.sh) <br>
+[Back to top](#hello-world)
+
+## Batch (DOS)
+```
+@echo off
+echo Hello, World!
+```
+[Go to file](files/batch-dos.bat) <br>
 [Back to top](#hello-world)
 
 ## C
@@ -214,7 +225,7 @@ IO.puts("Hello, World!")
 
 ## Erlang
 ```
--module(HelloWorld).
+-module(hello).
 -export([start/0]).
 
 start() -> 
@@ -258,7 +269,7 @@ func main() {
 module Main where
 
 main :: IO ()
-main putStrLn "Hello, World!"
+main = putStrLn "Hello, World!"
 ```
 [Back to top](#hello-world)
 
@@ -343,7 +354,7 @@ print("Hello, World!")
 [Back to top](#hello-world)
 
 ## MATLAB
-```matlab
+```
 disp('Hello, World!')
 ```
 [Back to top](#hello-world)
@@ -513,7 +524,7 @@ Module HelloWorld
     End Sub
 End Module
 ```
-[Go to file](files/visualbasic.vb) <br>
+[Go to file](files/visual-basic.vb) <br>
 [Back to top](#hello-world)
 
 ## Visualg
@@ -527,6 +538,20 @@ fimalgoritmo
 [Go to file](files/visualg.alg) <br>
 [Back to top](#hello-world)
 
+## Vue.js
+```
+createApp({
+    setup() {
+        const message = ref('Hello, World!')
+        return {
+        	message
+        }
+    }
+}).mount('#app')
+```
+[Go to file](files/vue.js.vue) <br>
+[Back to top](#hello-world)
+
 ## XML
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -535,6 +560,13 @@ fimalgoritmo
 </message>
 ```
 [Go to file](files/xml.xml) <br>
+[Back to top](#hello-world)
+
+## YAML
+```
+message: Hello, World!
+```
+[Go to file](files/yaml.yaml) <br>
 [Back to top](#hello-world)
 
 ## YARA
