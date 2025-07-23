@@ -82,6 +82,17 @@ int main() {
 [Go to file](files/cpp.cpp) <br>
 [Back to top](#hello-world)
 
+## COBOL
+```
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+PROCEDURE DIVISION.
+    DISPLAY "Hello, World!".
+    STOP RUN.
+```
+[Go to file](files/cobol.cbl) <br>
+[Back to top](#hello-world)
+
 ## CSS
 ```
 body::before {
