@@ -1,7 +1,7 @@
 
 # Hello, World!
-### "Hello, World!" in some programming and markup languages.
-### "Olá, Mundo!" em algumas linguagens de programação e marcação.
+### "Hello, World!" in some programming, markup and scripting languages.
+### "Olá, Mundo!" em algumas linguagens de programação, marcação e script.
 
 <details><summary><h3>Links</h3></summary>
 
@@ -11,6 +11,7 @@
 - [C++](#c-2)
 - [CSS](#css)
 - [Dart](#dart)
+- [F#](#f)
 - [Go](#go)
 - [HTML](#html)
 - [Java](#java)
@@ -109,6 +110,16 @@ void main() {
 }
 ```
 [Go to file](files/dart.dart) <br>
+[Back to top](#hello-world)
+
+## F#
+```
+[<EntryPoint>]
+let main argv =
+    printfn "Hello, World!"
+    0
+```
+[Go to file](files/fsharp.fs) <br>
 [Back to top](#hello-world)
 
 ## Go
