@@ -30,8 +30,10 @@
 - [SQL](#-sql)
 - [Swift](#-swift)
 - [TypeScript](#-typescript)
+- [Visual Basic](#-visual-basic)
 - [Visualg](#visualg)
 - [XML](#-xml)
+- [Zig](#-zig)
 </details>
 
 ## <a href="#-bash"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="Bash Icon" align="center" width="40"></a>&nbsp; Bash
@@ -284,6 +286,17 @@ console.log("Hello, World!")
 [Go to file](files/typescript.ts) <br>
 [Back to top](#-hello-world)
 
+## <a href="#-visual-basic"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualbasic/visualbasic-original.svg" alt="Visual Basic Icon" align="center" width="40"></a>&nbsp; Visual Basic
+```vb
+Module Program
+    Sub Main()
+        Console.WriteLine("Hello, World!")
+    End Sub
+End Module
+```
+[Go to file](files/visual-basic.vb) <br>
+[Back to top](#-hello-world)
+
 ## Visualg
 ```
 algoritmo "Olá, Mundo!"
@@ -303,4 +316,15 @@ fimalgoritmo
 </message>
 ```
 [Go to file](files/xml.xml) <br>
+[Back to top](#-hello-world)
+
+## <a href="#-zig"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zig/zig-original.svg" alt="Zig Icon" align="center" width="40"></a>&nbsp; Zig
+```zig
+const std = @import("std");
+
+pub fn main() !void {
+    std.debug.print("Hello, World!\n", .{});
+}
+```
+[Go to file](files/zig.zig) <br>
 [Back to top](#-hello-world)
